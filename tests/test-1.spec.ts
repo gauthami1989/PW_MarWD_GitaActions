@@ -9,4 +9,6 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
   await expect(page.locator('#errorDiv')).toContainText('following error occurred during login: User not found.');
   console.log(Commit in pipeline)
+  console.log(Commit in pipeline1)
+
 });
